@@ -8,7 +8,7 @@ cask "kawa" do
   homepage "https://github.com/alexson/kawa"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Kawa.app"
 
